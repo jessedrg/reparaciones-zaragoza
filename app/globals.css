@@ -26,7 +26,7 @@ body {
 
 @layer base {
   * {
-    @apply border-border;
+    border-color: hsl(var(--border));
   }
 
   html {
@@ -96,6 +96,7 @@ body {
 /* Focus ring */
 @layer base {
   :focus-visible {
-    @apply outline-2 outline-offset-2 outline-ring;
+    outline: 2px solid hsl(var(--ring));
+    outline-offset: 2px;
   }
 }
