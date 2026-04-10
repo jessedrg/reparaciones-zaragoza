@@ -1,0 +1,6 @@
+export const SITE_NAME = "Reparaciones Zaragoza"
+export const SITE_DOMAIN = "reparaciones-zaragoza.com"
+export const BASE_URL = "https://www.reparaciones-zaragoza.com"
+export const LAST_UPDATED = "2026-04-10"
+export const PHONE = "+34900433228"
+export const PHONE_DISPLAY = "900 433 228"
